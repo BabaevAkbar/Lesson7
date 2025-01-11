@@ -1,0 +1,14 @@
+/home/akbar/Рабочий стол/Lesson/Lesson7/bin/Debug/net8.0/Lesson7
+/home/akbar/Рабочий стол/Lesson/Lesson7/bin/Debug/net8.0/Lesson7.deps.json
+/home/akbar/Рабочий стол/Lesson/Lesson7/bin/Debug/net8.0/Lesson7.runtimeconfig.json
+/home/akbar/Рабочий стол/Lesson/Lesson7/bin/Debug/net8.0/Lesson7.dll
+/home/akbar/Рабочий стол/Lesson/Lesson7/bin/Debug/net8.0/Lesson7.pdb
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.GeneratedMSBuildEditorConfig.editorconfig
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.AssemblyInfoInputs.cache
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.AssemblyInfo.cs
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.csproj.CoreCompileInputs.cache
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.dll
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/refint/Lesson7.dll
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.pdb
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.genruntimeconfig.cache
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/ref/Lesson7.dll
