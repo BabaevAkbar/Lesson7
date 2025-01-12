@@ -1,4 +1,5 @@
 ﻿using System;
+using Program;
 
 namespace Lesson7
 {
@@ -6,7 +7,10 @@ namespace Lesson7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            // Задача 1
+            Console.WriteLine("Введите текст:");
+            string? message = Console.ReadLine();
+            Methods.ReplaceVowels(message);
         }
     }
 }

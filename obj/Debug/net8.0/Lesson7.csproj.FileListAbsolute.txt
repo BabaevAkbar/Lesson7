@@ -12,3 +12,4 @@
 /home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.pdb
 /home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.genruntimeconfig.cache
 /home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/ref/Lesson7.dll
+/home/akbar/Рабочий стол/Lesson/Lesson7/obj/Debug/net8.0/Lesson7.sourcelink.json
