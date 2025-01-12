@@ -93,6 +93,10 @@ namespace Program
             return count;
         }
 
+        /// <summary>
+        /// Выводит день недели текущего числа и просчитает отстое дней до ближайщего понедельника.
+        /// </summary>
+        /// <param name="now"></param>
         public static void DayWeek(DateTime now)
         {
             DayOfWeek dayWeek = now.DayOfWeek;
