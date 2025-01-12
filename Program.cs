@@ -7,10 +7,14 @@ namespace Lesson7
     {
         static void Main(string[] args)
         {
-            // Задача 1
+            //Задание 1
             Console.WriteLine("Введите текст:");
             string? message = Console.ReadLine();
-            Methods.ReplaceVowels(message);
+            string result = Methods.ReplaceVowels(message);
+            Console.WriteLine(result);
+
+            string result1 = Methods.ReplaceSpace(message);
+            Console.WriteLine(result1);
         }
     }
 }
