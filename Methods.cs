@@ -92,6 +92,19 @@ namespace Program
             }
             return count;
         }
+
+        public static void DayWeek(DateTime now)
+        {
+            DayOfWeek dayWeek = now.DayOfWeek;
+            int index = 0;
+            if(now.DayOfWeek != DayOfWeek.Monday)
+            {
+                now = now.AddDays(1);
+                index ++;
+            }
+            Console.WriteLine($"День недели данного числа {dayWeek}.");
+            Console.WriteLine($"До следующего понедельника отсалось {index} дней.");
+        }
     }
 
 }
