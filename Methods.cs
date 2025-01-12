@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 
 namespace Program
 {
@@ -7,7 +8,7 @@ namespace Program
         /// <summary>
         /// Все гласные буквы на символ '*'
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="Текст"></param>
         /// <returns>string</returns>
         public static string ReplaceVowels(string message)
         {
@@ -28,7 +29,7 @@ namespace Program
         /// <summary>
         /// Все пробелы на символ '_’
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="Текст"></param>
         /// <returns>string</returns>
         public static string ReplaceSpace(string message)
         {
@@ -39,7 +40,7 @@ namespace Program
         /// <summary>
         /// Возвращвет количество слов в строке
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="Текст"></param>
         /// <returns>int</returns>
         public static int CountWord(string message)
         {
@@ -50,7 +51,7 @@ namespace Program
         /// <summary>
         /// Находит самое длинное слово
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="Текст"></param>
         /// <returns>string</returns>
         public static string LongOffer(string message)
         {
@@ -74,7 +75,7 @@ namespace Program
         /// <summary>
         /// Возвращает количество чисел в строке
         /// </summary>
-        /// <param name="message"></param>
+        /// <param name="Текст"></param>
         /// <returns>int</returns>
         public static int CountNum(string message)
         {
@@ -96,7 +97,7 @@ namespace Program
         /// <summary>
         /// Выводит день недели текущего числа и просчитает отстое дней до ближайщего понедельника.
         /// </summary>
-        /// <param name="now"></param>
+        /// <param name="Текущая дата"></param>
         public static void DayWeek(DateTime now)
         {
             DayOfWeek dayWeek = now.DayOfWeek;
@@ -108,6 +109,21 @@ namespace Program
             }
             Console.WriteLine($"День недели данного числа {dayWeek}.");
             Console.WriteLine($"До следующего понедельника отсалось {index} дней.");
+        }
+
+        /// <summary>
+        /// С помощь StringBuilder создает строку с определенными симолами n раз 
+        /// </summary>
+        /// <param name="Количество симолов"></param>
+        /// <param name="Символ"></param>
+        public static void AddStrBuilder(int a, string b)
+        {
+            StringBuilder sb = new StringBuilder();
+            for(int i = 1; i <= a; i++)
+            {
+                sb.Append(b);
+                Console.WriteLine($"{i}-{sb[i-1]}");
+            }
         }
     }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Program;
 
 namespace Lesson7
@@ -26,9 +27,12 @@ namespace Lesson7
             // int result4 = Methods.CountNum(message);
             // Console.WriteLine($"Количество чисел в строке составляет {result4}");
 
-            //Задание 3
-            DateTime now = DateTime.UtcNow;
-            Methods.DayWeek(now);
+            // //Задание 3
+            // DateTime now = DateTime.UtcNow;
+            // Methods.DayWeek(now);
+
+            //  Задание 4
+            Methods.AddStrBuilder(1000000, "А");
         }
     }
 }
